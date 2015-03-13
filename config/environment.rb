@@ -6,8 +6,8 @@ Rails::Initializer.run do |config|
   config.gem 'hoptoad_notifier'
 
   config.action_mailer.default_url_options ||= {:host => 'localhost:3000'}
-
-  config.action_controller.asset_host = "http://#{ENV['APP_HOST']}"
+  config.action_controller.session = { :key => "_myapp_session", :secret => "TVFrvNaK6yPeZEMbF9BQEZkwLUCmTVFrvNaK6yPeZEMbF9BQEZkwLUCm" }
+  config.action_controller.asset_host = ""
 end
 
 ActionView::Helpers::AssetTagHelper.
