@@ -1,4 +1,7 @@
 # Description
+
+Updating for testing...
+
 Stars is a Rails 2.3 application where you can publicly thank or praise a friend
 by giving them one of several "Stars" (e.g. Teambuilding, Cleaning, Creative,
 Detective, etc). Everyone who is signed up for Stars will receive an email about
